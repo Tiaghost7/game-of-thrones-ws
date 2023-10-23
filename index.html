@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel&family=Cinzel+Decorative&family=Lora&display=swap"
+    rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+    href="https://fonts.googleapis.com/css2?family=Cinzel&family=Cinzel+Decorative&family=Libre+Baskerville&family=Lora&display=swap"
+    rel="stylesheet">
+
+    <link rel="stylesheet" href="./src/css/estilos.css">
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+    <title>Game of Thrones</title>
+</head>
+
+<body>
+    <audio class="tema" autoplay>
+        <source src="./src/audio/game-of-thrones-theme.mp3" type="audio/mpeg">
+    </audio>
+
+    <main class="personagens">
+        <div class="personagem">
+            <img class="imagem" src="./src/imagens/daenerys-targaryen.png" alt="Daenerys Targaryen">
+            <div class="conteudo">
+                <i class="logo"> </i>
+                <h2 class="nome-personagem">DAENERYS TARGARYEN</h2>
+                <p class="descricao">Nascida da tormenta, mãe dos dragões,  a quebradora de correntes, rainha dos ândalos, ronaires e primeiros homens são algumas das alcunhas de Daenerys Targaryen, a herdeira do Trono de Ferro. Portatora dos três últimos dragões existentes, ela viaja pelos países além do mar estreito libertando escravos e formando seu exército para um dia invadir porto real e tomar seu trono por direito. </p>
+            </div>
+        </div>
+        <div class="personagem selecionado">
+            <img class="imagem" src="./src/imagens/tyrion-lannister.png" alt="Tyrion Lannister">
+            <div class="conteudo">
+                <i class="logo"> </i>
+                <h2 class="nome-personagem">TYRION LANNISTER</h2>
+                <p class="descricao">Tyrion Lannister, o duende, como é chamado de forma depreciativa é o filho mais novo de Tywin Lannister e irmão de Cersei e Jamie. Serviu como mão-do-rei Joffrey Baratheon (seu sobrinho) por um tempo, onde defendeu Porto Real contra o ataque de Stannis Baratheon. Após o casamento de Joffrey, fora acusado de ter envenando seu rei e condenado à morte, mas fora salvo por Jamie que o libertou da prisão para que ele fugisse.</p>
+            </div>
+        </div>
+
+        <div class="personagem">
+            <img class="imagem" src="./src/imagens/jon-snow-longclaw.png" alt="Jon Snow">
+            <div class="conteudo">
+                <i class="logo"> </i>
+                <h2 class="nome-personagem">JON SNOW</h2>
+                <p class="descricao">Jon é filho bastardo de Ned Stark, o protetor do Norte. Por ser um filho fora do casamento Jon sabia que nunca herdaria as terras e o sobrenome Stark, então decidiu se juntar à patrulha da noite, um grupo de guardiões que protegem Westeros contra dos Caminhantes Brancos e do povo livre além-da-muralha. Assim que chegou à Castelo Negro, Jon se destacou entre seus companheiros tendo como mentor Jeor Mormont, que lhe presenteou com a espada Garralonga e o treinou para substituí-lo como Lorde Comandante.</p>
+        </div>
+    </main>
+
+    <ul class="botoes">
+        <li>
+            <button class="botao" id="targaryen">
+                <img src="./src/imagens/casa-targaryen.png" alt="Casa Targaryen">
+            </button>
+        </li>
+        <li>
+            <button class="botao selecionado" id="lannister">
+                <img src="./src/imagens/casa-lannister.png" alt="Casa Lannister">
+            </button>
+        </li>
+        <li>
+            <button class="botao" id="stark">
+                <img src="./src/imagens/casa-stark.png" alt="Casa Stark">
+            </button>
+        </li>
+    </ul>    
+        <script src="./src/js/index.js"></script>
+    </body>
+
+</html>
